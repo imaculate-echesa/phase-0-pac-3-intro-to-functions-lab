@@ -7,8 +7,8 @@ function shout(string) {
   function logShout(string) {
     console.log(string.toUpperCase());
   }
-  function logWhisper(strng) {
-    console.log(strng.toLowerCase());
+  function logWhisper(string) {
+    console.log(string.toLowerCase());
   }
   function sayHiToHeadphonedRoommate(string) {
     console.log(string.toLowerCase());
