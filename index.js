@@ -7,8 +7,8 @@ function shout(string) {
   function logShout(string) {
     console.log(string.toUpperCase());
   }
-  function logWhisper(string) {
-    console.log(string.toLowerCase());
+  function logWhisper(strng) {
+    console.log(strng.toLowerCase());
   }
   function sayHiToHeadphonedRoommate(string) {
     console.log(string.toLowerCase());
@@ -21,7 +21,7 @@ function shout(string) {
    if(string===string.toUpperCase()){
      return "YES INDEED!"
     }
-    if (string===string){
+    if (string===string){ 
     return "I would love to!"
   }
   } 
